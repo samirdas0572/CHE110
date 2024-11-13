@@ -1,0 +1,115 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.section {
+    padding: 80px 20px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    padding: 0 20px;
+    background: #e0f7fa;
+    color: #333;
+    
+    background: url('https://cms.accuweather.com/wp-content/uploads/2023/07/Flood_Agnostic-2.png    ') center/cover no-repeat ;
+    background-blend-mode:overlay;
+    background-color: #323232;
+}
+
+
+.home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #f8f9fa;
+}
+.home p{
+    color: #f8f9fa;
+}
+
+.button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content img {
+    width: 50%;
+    border-radius: 5px;
+}
+.content {
+    font-size: medium;
+     
+}
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
